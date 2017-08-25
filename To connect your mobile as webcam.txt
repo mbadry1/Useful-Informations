@@ -1,0 +1,18 @@
+To connect your mobile as webcam:
+
+Prerequisites
+Android:
+	1- dev47apps's Droidcam
+	2- ShareIt Android. (Optinal)
+Windows:
+	1- dev47apps's Droidcam client
+	2- ShareIt desktop. (Optinal)
+	
+	
+Steps:
+1- Connect your pc directly to mobile using shareIt (Faster),
+	or make the mobile and pc in the same wirless network.
+2- Open Droidcam on your mobile.
+3- Open Droidcam client on your pc and use the Ip and port in the mobile to connect
+
+	

@@ -1,0 +1,6 @@
+1- Open c:\users\username folder
+2- Found .docker folder.
+3- open it and remove the folder "C:\Users\username\.docker\machine"
+4- Move .docker to a new place say "D:\docker\.docker"
+5- run this command on cmd: mklink /j .docker D:\Docker\.docker from the c:\users\username on cmd
+	this will create a junction.

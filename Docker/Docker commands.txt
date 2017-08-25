@@ -1,0 +1,12 @@
+==>docker --version
+Gets the version of the docker.
+
+==>docker images
+Lists all the images that are installed in the docker.
+
+==>docker container ls
+Lists all the running containers.
+
+==>You can use "Kitematic" program which is installed with docker to run images as containers in a simple way
+	That application is so useful it can be used to search for useful containers and upload your work to the hub.
+

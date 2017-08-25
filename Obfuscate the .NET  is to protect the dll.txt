@@ -1,0 +1,25 @@
+Smartassembly
+Dotfuscator .NET Obfuscator
+Salamander .NET Obfuscator
+Semantic Designs: C# Source Code Obfuscator
+Spices.Net
+Thinstall
+Demeanor for .NET
+Xenocode Postbuild 2006
+.NET Reactor
+Crypto Obfuscator
+DeployLX CodeVeil
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.codeproject.com/Articles/1139773/Protect-Your-Source-Code-from-Decompiling-or-Rever

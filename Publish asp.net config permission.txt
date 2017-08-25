@@ -1,0 +1,1 @@
+The IIS website is run by either USERS or IIS_IUSRS. Try to do following: from Windows Explorer, right click on the folder pointed by the web, go to security tab, add computername\IIS_IUSRS or computername\USERS with Read permission.
