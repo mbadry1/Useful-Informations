@@ -69,3 +69,45 @@ window.onbeforeunload = function() {
     }
 };
 ```
+
+Images
+Inline image syntax looks like this:
+![Alt text](/path/to/image.jpg)
+![Alt text](/path/to/image.png "Optional title attribute")
+![Alt text](/url/to/image.jpg)
+For example:
+...
+![Mockup for feature A](http://monosnap.com/image/bOcxxxxLGF.png)
+...
+Reference image links look like this:
+![Alt text][id]
+where 'id' is the name of a previously defined image reference, using syntax similar to link references:
+[id]: url/to/image.jpg "Optional title attribute"
+For example:
+...
+<--Collected image definitions-->
+[MockupA]: http://monosnap.com/image/bOcxxxxLGF.png "Screenshot of Feature A mockup" 
+...
+<!--Using an image reference-->
+![Mockup for feature A][MockupA]
+...
+Tables
+| Day     | Meal    | Price |
+| --------|---------|-------|
+| Monday  | pasta   | $6    |
+| Tuesday | chicken | $8    |
+Backslash escapes
+Certain characters can be escaped with a preceding backslash to preserve the literal display of a character instead of its special Markdown meaning. This applies to the following characters:
+\  backslash 
+`  backtick 
+*  asterisk 
+_  underscore 
+{} curly braces 
+[] square brackets 
+() parentheses 
+#  hash mark 
+>  greater than 
++  plus sign 
+-  minus sign (hyphen) 
+.  dot 
+!  exclamation mark
