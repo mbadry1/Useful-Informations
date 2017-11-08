@@ -1,0 +1,36 @@
+
+
+1- Add this lib to your project:
+	https://www.nuget.org/packages/System.Data.SQLite
+		Install-Package System.Data.SQLite
+2- Install extention SQL Server Compact & SQLite Toolbox
+	https://sqlcetoolbox.codeplex.com/
+3- Using the extention add new conntection and browse for DB place (This will add a new DB).
+	or run this command in your project: SQLiteConnection.CreateFile("MyDatabase.db");
+4- Add table to test your work.
+	--Using the extention or datagrip.
+5- Add new ado.net entity model
+6- If you've got an error with the providers
+	a- The problem is in the machine.config:
+		https://forums.asp.net/t/2022938.aspx?Unable+to+find+the+requested+Net+Framework+Data+Provider+It+may+not+be+installed+
+	b- After you change the machine.config copy the x86 dlls to C:\Windows\SysWOW64 on 64 bit machine
+7- Your entity is ready!
+
+
+good tutorials:
+
+--Series.
+	https://www.youtube.com/watch?v=sAAKu_SsaoA
+
+--Manual queries.
+	http://blog.tigrangasparian.com/2012/02/09/getting-started-with-sqlite-in-c-part-one/
+
+Useful tools (If installation failed)
+	Install Entity Framework 6 Power Tools:
+	VS2015,2017: https://marketplace.visualstudio.com/items?itemName=ErikEJ.EntityFramework6PowerToolsCommunityEdition
+	VS2013: https://www.microsoft.com/en-eg/download/confirmation.aspx?id=40762
+
+	Install System.Data.SQLite
+	http://system.data.sqlite.org/index.html/doc/trunk/www/downloads.wiki
+
+
